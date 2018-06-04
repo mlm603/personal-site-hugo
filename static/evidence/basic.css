@@ -1,0 +1,45 @@
+h2{
+  text-align: center;
+  background-color: #83A0A0;
+  color:black;
+  padding:5px;
+}
+h3{
+  text-align: center;
+}
+.manbutton{
+  width:45vw;
+  text-align: center;
+  background-color: #BCA0BC;
+  color: white;
+  padding: 30px;
+}
+.jumbotron-special{
+  text-align:center;
+  font-type: bold;
+  color: white;
+  font-size: 30px;
+  background:#2B3D41;
+  padding:30px;
+}
+.eventsdiv{
+  margin-top:200px;
+}
+.buttonsdiv{
+  margin-bottom:50px;
+}
+label{
+  font-weight:normal;
+}
+
+.options{
+  padding-left:5vw;
+    font-size:24px;  
+}
+img{
+  height:50vh;
+  max-width: 90vw;
+}
+br{
+  height:5vh;
+}

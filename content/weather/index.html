@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Custom local CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="basic.css">
+</head>
+
+<body>
+    {{ partial "header.html" . }}
+    <!-- app content -->
+    <!--<body background="http://www.wallpaperforlaptop.com/wp-content/uploads/2015/08/alone-tree-in-cloudy-weather-nature-wallpaper1.jpg">-->
+    <div class="container">
+        </br>
+        <div class="col-xs-push-3 col-xs-6 col-sm-push-3 col-sm-6 col-md-push-3 col-md-6 col-lg-push-3 col-lg-6 col-xl-push-3 col-xl-6 text-center">
+            </br>
+            <form class="box">
+                <button type="button" id="myLoc">Current Location</button>
+                <p> or </p>
+                <input type="text" placeholder="Enter a zip code" id="zip"></input>
+                <input type="submit" value="submit" id="submitzip"></input>
+            </form>
+            </br>
+            <div class="row box">
+                <img id="icon" src="#"></img>
+                <div id="temp">Pick a location
+                </div>
+                <div id="weath" class="dets">Pick a location</div>
+                <div id="city" class="dets">Pick a location</div>
+            </div>
+            </br>
+            <div class="box">
+                <p>Display temperature in</p>
+                <select id="temptype">
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Celcius">Celsius</option>
+                </select>
+            </div>
+            </br>
+        </div>
+    </div>
+    {{ partial "libraries.html" . }}
+</body>
+{{ partial "GoogleAnalytics.html" . }}
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Twitch</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Custom local CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="basic.css">
+</head>
+
+<body>
+    {{ partial "header.html" . }}
+    <!-- app content -->
+    <table align="center" id="myTable">
+        <tr>
+            <td class="header" id="online">
+                <button class="but" id="online_but">Online</button>
+            </td>
+            <td class="header" id="offline">
+                <button class="but" id="offline_but">Offline</button>
+            </td>
+            <td class="header" id="all">
+                <button class="but" id="all_but">All</button>
+            </td>
+        </tr>
+        <tr style="height:1vh"></tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link1" target="_blank"><img src="/images/empty.png" id="img_src1"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username1"></span></br>
+                </br><span id="detail1" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison1" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link2" target="_blank"><img src="/images/empty.png" id="img_src2" href="#"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username2"></span></br>
+                </br><span id="detail2" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison2" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link3" target="_blank"><img src="/images/empty.png" id="img_src3"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username3"></span></br>
+                </br><span id="detail3" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison3" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link4" target="_blank"><img src="/images/empty.png" id="img_src4"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username4"></span></br>
+                </br><span id="detail4" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison4" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link5" target="_blank"><img src="/images/empty.png" id="img_src5"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username5"></span></br>
+                </br><span id="detail5" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison5" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link6" target="_blank"><img src="/images/empty.png" id="img_src6"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username6"></span></br>
+                </br><span id="detail6" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison6" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link7" target="_blank"><img src="/images/empty.png" id="img_src7"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username7"></span></br>
+                </br><span id="detail7" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison7" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link8" target="_blank"><img src="/images/empty.png" id="img_src8"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username8"></span></br>
+                </br><span id="detail8" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison8" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link9" target="_blank"><img src="/images/empty.png" id="img_src9"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username9"></span></br>
+                </br><span id="detail9" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison9" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link10" target="_blank"><img src="/images/empty.png" id="img_src10"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username10"></span></br>
+                </br><span id="detail10" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison10" class="online"></img>
+            </td>
+        </tr>
+    </table>
+    {{ partial "libraries.html" . }}
+</body>
+{{ partial "GoogleAnalytics.html" . }}
+</html>

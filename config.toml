@@ -1,0 +1,5 @@
+baseURL = "http://meghansolo.com/"
+languageCode = "en-us"
+title = "Meghan Maloy"
+theme = "ananke"
+tags=["politics","excel"]

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Custom local CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="basic.css">
+</head>
+
+{{ partial "header.html" . }}
+
+<body>
+    <!-- app content -->
+    <table style="width:100% " align="center" class="table_borders">
+        <tr class="first_blank_row">
+            <td colspan="9"></td>
+        </tr>
+        <tr class="screen">
+            <td class="calc_color"></td>
+            <td colspan="7" class="screen_borders">
+                <div id="display"></div>
+            </td>
+            <td class="calc_color"></td>
+        </tr>
+        <tr class="med_blank_row">
+            <td colspan="9"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="all_borders">
+                <button class="but" id="AC">AC</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders">
+                <button class="but" id="CE">CE</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders">
+                <button class="but" id="per">%</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders" id="divbut">
+                <button class="but" id="div">/</button>
+            </td>
+            <td></td>
+        </tr>
+        <tr class="blank_row">
+            <td colspan="9"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="all_borders">
+                <button class="but" id="7">7</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders">
+                <button class="but" id="8">8</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders">
+                <button class="but" id="9">9</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders" id="xbut">
+                <button class="but" id="x">x</button>
+            </td>
+            <td></td>
+        </tr>
+        <tr class="blank_row">
+            <td colspan="9"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="all_borders">
+                <button class="but" id="4">4</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders">
+                <button class="but" id="5">5</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders">
+                <button class="but" id="6">6</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders" id="-but">
+                <button class="but" id="-">-</button>
+            </td>
+            <td></td>
+        </tr>
+        <tr class="blank_row">
+            <td colspan="9"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="all_borders">
+                <button class="but" id="1">1</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders">
+                <button class="but" id="2">2</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders">
+                <button class="but" id="3">3</button>
+            </td>
+            <td class="td2"></td>
+            <td rowspan="3" class="all_borders" id="plusbut">
+                <button class="but" id="plus">+</button>
+            </td>
+            <td></td>
+        </tr>
+        <tr class="blank_row">
+            <td colspan="9"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="all_borders">
+                <button class="but" id="0">0</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders">
+                <button class="but" id="perd">.</button>
+            </td>
+            <td class="td2"></td>
+            <td class="all_borders">
+                <button class="but" id="equals">=</button>
+            </td>
+            <td class="td2"></td>
+            <td></td>
+        </tr>
+        <tr class="first_blank_row">
+            <td colspan="9"></td>
+        </tr>
+    </table>
+    {{ partial "libraries.html" . }}
+</body>
+{{ partial "GoogleAnalytics.html" . }}
+</html>

@@ -1,0 +1,5 @@
+chicago geojson: https://github.com/chriswhong/chicago_geojson
+
+nyc geojson: https://github.com/blackmad/zetashapes/edit/master/samples/nyc-pediacities-neighborhoods-polygon-v2.geojson
+
+subjective comparisons: https://medium.com/jeremy-keeshin/neighborhood-comparisons-across-cities-200b7bb6f864

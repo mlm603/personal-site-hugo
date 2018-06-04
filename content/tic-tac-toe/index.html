@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Custom local CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="basic.css">
+</head>
+
+<body>
+    <!-- app content -->
+    {{ partial "header.html" . }}
+    <div class="jumbotron jumbotron-special">Tic Tac Toe</div>
+    <div class="jumbotron choose-mark" id="markOpt">Choose your mark
+        <form>
+            <button id="pickX" type="button">X</button>
+            <button id="pickO" type="button">O</button>
+        </form>
+    </div>
+    <table id="myTable" align="center" class="table-hide">
+        <tr>
+            <td class="right" id="top-left"></td>
+            <td class="right" id="top-center"></td>
+            <td id="top-right"></td>
+        </tr>
+        <tr>
+            <td class="tb" id="mid-left"></td>
+            <td class="all" id="mid-center"></td>
+            <td class="tb" id="mid-right"></td>
+        </tr>
+        <tr>
+            <td class="right" id="bot-left"></td>
+            <td class="right" id="bot-center"></td>
+            <td id="bot-right"></td>
+        </tr>
+    </table>
+    {{ partial "libraries.html" . }}
+</body>
+{{ partial "GoogleAnalytics.html" . }}
+</html>
