@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pomodoro Timer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="basic.css">
+</head>
+
+<div class="row">
+    <div class="col-md-12">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Meghan Maloy</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#about">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="drop-but">Portfolio <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/#Portfolio">Portfolio Overview</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/calc/index.html">Calculator</a></li>
+                                <li><a href="https://github.com/mlm603/personal-site/raw/master/Excel%20files/EIW%20list%20with%20arrows.xlsm">EIW Excel Tool</a></li>
+                                <li><a href="https://github.com/mlm603/mlm603.github.io/raw/master/Excel%20files/ListSearch%201-20-15%20MM.xlsm">List Comparison Excel Tool</a></li>
+                                <li><a href="/pomodoro-clock/index.html">Pomodoro Clock</a></li>
+                                <li><a href="/quote-machine/index.html">Quote Machine</a></li>
+                                <li><a href="https://github.com/mlm603/mlm603.github.io/raw/master/Excel%20files/Bears%20Beets%20Battlestar%20Galactica.xlsm">Schrute Reports</a></li>
+                                <li><a href="/simon/index.html">Simon</a></li>
+                                <li><a href="/tic-tac-toe/index.html">Tic Tac Toe</a></li>
+                                <li><a href="/weather/index.html">Weather</a></li>
+                                <li><a href="/wikipedia-viewer/index.html">Wikipedia Viewer</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="posts/index.html">Blog</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </nav>
+    </div>
+</div>
+<body>
+        
+        <div class="jumbotron col-xs-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="row">
+                    <h2 style="text-align:center">Pomodoro Session</h2>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 " style="text-align:center">
+                    <div class="row">
+                        <button type="button" id="plusMin" class="minbut">+</button><span id="startMins">25</span>
+                        <button type="button" id="minusMin" class="minbut">-</button>
+                    </div>
+                    <div class="row">Minutes</div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="row">
+                    <h2 style="text-align:center">Break</h2>
+                </div>
+                <div class="col-xs-12  col-sm-12 col-md-12 col-lg-12 col-xl-12" style="text-align:center">
+                    <div class="row">
+                        <button type="button" id="BreakplusMin" class="minbut">+</button><span id="BreakstartMins">5</span>
+                        <button type="button" id="BreakminusMin" class="minbut">-</button>
+                    </div>
+                    <div class="row">Minutes</div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="text-align:center">
+            <TABLE BORDER="0" cellpadding="10" CELLSPACING="0" align="center">
+                <TR>
+                    <TD WIDTH="270" HEIGHT="250" BACKGROUND="http://a1.mzstatic.com/us/r30/Purple1/v4/8a/3a/1f/8a3a1f6c-ebc6-4bbd-bc61-bf27aed94494/icon256.png " VALIGN="center" style="background-repeat: no-repeat">
+                        <h2 id="timer"> <span id="remainingMins"></span><span>:</span><span id="remainingSecs"></span></h2>
+                        <div id="test"></div>
+                    </TD>
+                </TR>
+            </TABLE>
+
+        </div>
+        <div class="jumbotron col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="text-align:center">
+            <button type="button" id="start">Start</button>
+            <button type="button" id="pause">Pause</button>
+        </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script type="text/javascript" src="custom.js"></script>
+<script type="text/javascript" src="js/bootstrap/bootstrap-dropdown.js"></script>
+<script>
+$(document).ready(function() {
+    $('.dropdown-toggle').dropdown()
+});
+</script>
+    </body>
+<script>
+(function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-74711878-1', 'auto');
+ga('send', 'pageview');
+</script>
+</html>

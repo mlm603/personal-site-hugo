@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Candy Tasting</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Custom local CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-special">Candy Tasting</div>
+    <div id="selections">
+        <a id="rateCandy" class="buttonStyle">Rate a Candy</a>
+        <a id="PBI" class="buttonStyle" href="https://app.powerbi.com/groups/me/reports/1806ca74-376c-4bee-81c7-91996d4dff11/ReportSection" target="_blank">See Results</a>
+    </div>
+    <div id="formdiv" style="display:none">
+        <form id="gform" method="POST" action="https://script.google.com/a/u.northwestern.edu/macros/s/AKfycbz-qDrIoSNX9_fysA3F4njYSnfK448rVxYPzmO3ydpa2dHutvk/exec">
+            <!--<input type="text" placeholder="today" name="Timestamp"/>-->
+            <div class="field">
+                <label>Name:</label>
+                <input type="text" id="Name" name="Person" />
+            </div>
+            <div class="field">
+                <label>Candy:</label>
+                <select id="candy" name="Candy">
+                </select>
+                <input type="text" id="otherCandy" name="otherCandy" style="display:none" placeholder="name of candy"/>
+            </div>
+            <div class="field">
+                <Label>Have you tried this candy before?</Label>
+                <select id="before">
+                    <option value=0>Yes</option>
+                    <option value=1>No</option>
+                </select>
+            </div>
+            <div class="field">
+                <Label>Would you eat this candy again?</Label>
+                <select id="again">
+                    <option value=0>Yes</option>
+                    <option value=1>No</option>
+                </select>
+            </div>
+            <div class="field stars">
+                <Label>How would you rate this candy?</Label>
+                </br>
+                <input class="star star-5" id="star-5" type="radio" name="star" value=1></input>
+                <label class="star star-5" for="star-5"></label>
+                <input class="star star-4" id="star-4" type="radio" name="star" value=2></input>
+                <label class="star star-4" for="star-4"></label>
+                <input class="star star-3" id="star-3" type="radio" name="star" value=3></input>
+                <label class="star star-3" for="star-3"></label>
+                <input class="star star-2" id="star-2" type="radio" name="star" value=4></input>
+                <label class="star star-2" for="star-2"></label>
+                <input class="star star-1" id="star-1" type="radio" name="star" value=5></input>
+                <label class="star star-1" for="star-1"></label>
+            </div>
+            <div class="field">
+                <input type="submit" id="submit-form" value="Submit" class="buttonStyle">
+            </div>
+        </form>
+    </div>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript" src="custom.js"></script>
+    <script type="text/javascript" src="js/bootstrap/bootstrap-dropdown.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.dropdown-toggle').dropdown()
+    });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Twitch</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="basic.css">
+</head>
+
+<body>
+    <div class="row">
+    <div class="col-md-12">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Meghan Maloy</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#about">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="drop-but">Portfolio <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/#Portfolio">Portfolio Overview</a></li>
+                                <li class="divider"></li>
+                                <li><a href="/calc/index.html">Calculator</a></li>
+                                <li><a href="https://github.com/mlm603/personal-site/raw/master/Excel%20files/EIW%20list%20with%20arrows.xlsm">EIW Excel Tool</a></li>
+                                <li><a href="https://github.com/mlm603/mlm603.github.io/raw/master/Excel%20files/ListSearch%201-20-15%20MM.xlsm">List Comparison Excel Tool</a></li>
+                                <li><a href="/pomodoro-clock/index.html">Pomodoro Clock</a></li>
+                                <li><a href="/quote-machine/index.html">Quote Machine</a></li>
+                                <li><a href="https://github.com/mlm603/mlm603.github.io/raw/master/Excel%20files/Bears%20Beets%20Battlestar%20Galactica.xlsm">Schrute Reports</a></li>
+                                <li><a href="/simon/index.html">Simon</a></li>
+                                <li><a href="/tic-tac-toe/index.html">Tic Tac Toe</a></li>
+                                <li><a href="/weather/index.html">Weather</a></li>
+                                <li><a href="/wikipedia-viewer/index.html">Wikipedia Viewer</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="posts/index.html">Blog</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </nav>
+    </div>
+</div>
+    
+    <table align="center" id="myTable">
+        <tr>
+            <td class="header" id="online">
+                <button class="but" id="online_but">Online</button>
+            </td>
+            <td class="header" id="offline">
+                <button class="but" id="offline_but">Offline</button>
+            </td>
+            <td class="header" id="all">
+                <button class="but" id="all_but">All</button>
+            </td>
+        </tr>
+        <tr style="height:1vh"></tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link1" target="_blank"><img src="/images/empty.png" id="img_src1"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username1"></span></br>
+                </br><span id="detail1" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison1" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link2" target="_blank"><img src="/images/empty.png" id="img_src2" href="#"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username2"></span></br>
+                </br><span id="detail2" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison2" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link3" target="_blank"><img src="/images/empty.png" id="img_src3"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username3"></span></br>
+                </br><span id="detail3" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison3" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link4" target="_blank"><img src="/images/empty.png" id="img_src4"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username4"></span></br>
+                </br><span id="detail4" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison4" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link5" target="_blank"><img src="/images/empty.png" id="img_src5"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username5"></span></br>
+                </br><span id="detail5" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison5" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link6" target="_blank"><img src="/images/empty.png" id="img_src6"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username6"></span></br>
+                </br><span id="detail6" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison6" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link7" target="_blank"><img src="/images/empty.png" id="img_src7"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username7"></span></br>
+                </br><span id="detail7" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison7" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link8" target="_blank"><img src="/images/empty.png" id="img_src8"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username8"></span></br>
+                </br><span id="detail8" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison8" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link9" target="_blank"><img src="/images/empty.png" id="img_src9"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username9"></span></br>
+                </br><span id="detail9" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison9" class="online"></img>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#" id="img_link10" target="_blank"><img src="/images/empty.png" id="img_src10"></img>
+                </a>
+            </td>
+            <td class="user small"><span id="username10"></span></br>
+                </br><span id="detail10" class="detail"></span></td>
+            <td class="right_cell"><img src="/images/empty.png" id="ison10" class="online"></img>
+            </td>
+        </tr>
+    </table>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script type="text/javascript" src="custom.js"></script>
+<script type="text/javascript" src="js/bootstrap/bootstrap-dropdown.js"></script>
+<script>
+$(document).ready(function() {
+    $('.dropdown-toggle').dropdown()
+});
+</script>
+</body>
+<script>
+(function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-74711878-1', 'auto');
+ga('send', 'pageview');
+</script>
+</html>

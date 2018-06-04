@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meghan Maloy</title>
+    <link>https://meghansolo.com/</link>
+    <description>Recent content on Meghan Maloy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Nov 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://meghansolo.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Let&#39;s Get This Party ... Stopped</title>
+      <link>https://meghansolo.com/posts/third_parties_2016/</link>
+      <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/posts/third_parties_2016/</guid>
+      <description>As the country responds to the largely unanticipated results of Tuesday’s General Election, many news sources and individuals are commenting on the potential outcomes had third party voters not “wasted” their votes. There are in fact six states that Clinton lost (including Michigan, which has not technically been called yet despite having 100% reporting) that she could have won had a portion of third party voters instead voted for her.</description>
+    </item>
+    
+    <item>
+      <title>Must-Have Macros</title>
+      <link>https://meghansolo.com/posts/macros/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/posts/macros/</guid>
+      <description>As someone who works with Excel all day, I&amp;rsquo;ve found that there are a few macros that make my life and the lives of those who have to view my documents much better. Specifically, making sheets &amp;ldquo;VeryHidden&amp;rdquo; (can&amp;rsquo;t be unhidden just by right clicking on a tab) has proven to be a great tactic for discouraging nosy recipients from poking around in data they shouldn&amp;rsquo;t see and creating a cleaner looking file.</description>
+    </item>
+    
+    <item>
+      <title>Git HR Done</title>
+      <link>https://meghansolo.com/posts/treaties_bills/</link>
+      <pubDate>Wed, 12 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/posts/treaties_bills/</guid>
+      <description>Congressional gridlock has been a major issue throughout American history and especially during the Obama presidency. The 112th Congress (2011-2012) was named the “least productive Congress in modern history” by the Pew Research Center, and the 113th Congress (2013-2014) came in a close second. Partisan disputes over appropriations bills led to a government shutdown in 2013 and a close call in 2015.
+ With even crucial bills being stalled, you might think that representatives would be eager to get something passed.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://meghansolo.com/calc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/calc/</guid>
+      <description>Calculator{{ partial &#34;header.html&#34; . }}ACCE%/789x456-123+0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://meghansolo.com/gdp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/gdp/</guid>
+      <description>US GDP--//{{ partial &#34;header.html&#34; . }}$(document).ready(function () {var bodyColor = $(&#39;body&#39;).css(&#39;color&#39;);if (bodyColor != &#39;rgb(51, 51, 51)&#39;) {$(&#34;head&#34;).prepend(&#39;&#39;);}});var dataset;$(document).ready(function(){d3.select(&#34;body&#34;).append(&#34;div&#34;).attr(&#34;class&#34;,&#34;jumbotron-special&#34;).text(&#34;U.S. Gross Domestic Product ($USDbn)&#34;)$.getJSON(&#34;https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/GDP-data.json&#34;, function(result) {const w = window.innerWidth-15;const h = window.innerHeight-200;const padding=60;const scale=d3.scaleLinear();dataset=result.data;var parser = d3.timeParse(&#34;%Y-%m-%d&#34;);var formatDate = d3.timeFormat(&#34;%B %Y&#34;);const xScale = d3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://meghansolo.com/pomodoro-clock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/pomodoro-clock/</guid>
+      <description>Pomodoro Timer{{ partial &#34;header.html&#34; . }}Pomodoro Session+25-MinutesBreak+5-Minutes:StartPause{{ partial &#34;libraries.html&#34; . }}{{ partial &#34;GoogleAnalytics.html&#34; . }}</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://meghansolo.com/quote-machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/quote-machine/</guid>
+      <description>Quote Machine{{ partial &#34;header.html&#34; . }}New quoteThat&#39;s what she said. Michael ScottTweet! function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0],p = /^http:/.test(d.location) ? &#39;http&#39; : &#39;https&#39;;if (!d.getElementById(id)) {js = d.createElement(s);js.id = id;js.src = p + &#39;://platform.twitter.com/widgets.js&#39;;fjs.parentNode.insertBefore(js, fjs);}}(document, &#39;script&#39;, &#39;twitter-wjs&#39;);{{ partial &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://meghansolo.com/simon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/simon/</guid>
+      <description>Simon{{ partial &#34;header.html&#34; . }}Simon1StartReset{{ partial &#34;libraries.html&#34; . }}{{ partial &#34;GoogleAnalytics.html&#34; . }}</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://meghansolo.com/tic-tac-toe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/tic-tac-toe/</guid>
+      <description>Tic Tac Toe{{ partial &#34;header.html&#34; . }}Tic Tac ToeChoose your markXO{{ partial &#34;libraries.html&#34; . }}{{ partial &#34;GoogleAnalytics.html&#34; . }}</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://meghansolo.com/twitch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/twitch/</guid>
+      <description>Twitch{{ partial &#34;header.html&#34; . }}OnlineOfflineAll{{ partial &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://meghansolo.com/weather/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/weather/</guid>
+      <description>Weather{{ partial &#34;header.html&#34; . }}--Current Location or Pick a locationPick a locationPick a locationDisplay temperature in
+FahrenheitCelsius{{ partial &#34;libraries.html&#34; . }}{{ partial &#34;GoogleAnalytics.html&#34; . }}</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://meghansolo.com/wikipedia-viewer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/wikipedia-viewer/</guid>
+      <description>Wikipedia Viewer{{ partial &#34;header.html&#34; . }}Wikipedia Viewer{{ partial &#34;libraries.html&#34; . }}{{ partial &#34;GoogleAnalytics.html&#34; . }}</description>
+    </item>
+    
+  </channel>
+</rss>

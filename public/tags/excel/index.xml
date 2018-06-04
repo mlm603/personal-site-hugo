@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel on Meghan Maloy</title>
+    <link>https://meghansolo.com/tags/excel/</link>
+    <description>Recent content in Excel on Meghan Maloy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://meghansolo.com/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Must-Have Macros</title>
+      <link>https://meghansolo.com/posts/macros/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://meghansolo.com/posts/macros/</guid>
+      <description>As someone who works with Excel all day, I&amp;rsquo;ve found that there are a few macros that make my life and the lives of those who have to view my documents much better. Specifically, making sheets &amp;ldquo;VeryHidden&amp;rdquo; (can&amp;rsquo;t be unhidden just by right clicking on a tab) has proven to be a great tactic for discouraging nosy recipients from poking around in data they shouldn&amp;rsquo;t see and creating a cleaner looking file.</description>
+    </item>
+    
+  </channel>
+</rss>

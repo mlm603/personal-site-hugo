@@ -1,0 +1,26 @@
+.bar:hover {
+    fill:yellow
+}
+h2{
+  font-size:10px;
+  font-style:italic
+}
+.axis-label{
+  font-family: arial;
+  font-size:12px
+}
+body{
+  font-family:arial
+}
+.axis-title{
+  font-weight: bold;
+  font-size:12px;
+}
+.jumbotron-special{
+  text-align:center;
+  font-size: 30px;
+  background:rgb(142,145,0);
+  padding:30px;
+  width:100vw;
+  margin:-10px
+}
