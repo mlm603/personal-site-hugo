@@ -1,5 +1,6 @@
 .chart{
-  width:49%;
+  margin-left:1%;
+  width:48%;
   display:inline-block;
   background-color: #f7f7f7;
 }
@@ -13,13 +14,13 @@
   border-style: solid;
 }
 
-.city_flag h2{
+/*.city_flag h2{
   margin: 0;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+}*/
 
 .neighborhood{
   font-size:25px;
@@ -33,7 +34,6 @@
   color:white;
   background-color: black;
   padding: 10px 5% 10px 5%;
-  width:90%;
   text-align: center;
 }
 
@@ -54,20 +54,29 @@ input[type=radio]:checked + label>div {
 input[type=radio] + label>div{
   margin-left:2.5%;
   margin-right:2.5%;
-  width:40%;
+  width:160px;
   height:80px;
+}
+
+.jumbotron-special{
+  text-align:center;
+  font-size: 30px;
+  background:rgb(142,145,0);
+  width:100vw;
+  margin-top:30px;
 }
 
  @media only screen and (min-width: 600px) {
     .chart{
-      width:49%;
+      width:48%;
     }
     #filters{
       display:none 
     }
 }
 
- @media only screen and (max-width: 600px) {
+
+ @media only screen and (max-width: 800px) {
     .inactive_chart {
         display: none !important;
     }

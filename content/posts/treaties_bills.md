@@ -1,5 +1,6 @@
 ---
 title: "Git HR Done"
+tags: ["politics"]
 description: "When the House opposes the President and Senate, are treaties substituted for bills?"
 date: 2016-10-12
 ---

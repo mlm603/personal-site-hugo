@@ -118,7 +118,7 @@ var nycMap = d3.select('#nyc')
             //.attr('height', nyc_chart_height);
 
 //Data
-d3.json('chicago.json', function(chi_data){
+d3.json('/json/chicago.json', function(chi_data){
   chiMap.selectAll('path')
      .data(chi_data.features)
      .enter()
@@ -162,7 +162,7 @@ d3.json('chicago.json', function(chi_data){
      });
 });
 
-d3.json('nyc.json', function(nyc_data){
+d3.json('/json/nyc.json', function(nyc_data){
   nycMap.selectAll('path')
      .data(nyc_data.features)
      .enter()

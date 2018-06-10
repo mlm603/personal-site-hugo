@@ -54,7 +54,19 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.meghansolo.com/gdp/</guid>
-      <description>US GDP--//{{ partial &#34;header.html&#34; . }}$(document).ready(function () {var bodyColor = $(&#39;body&#39;).css(&#39;color&#39;);if (bodyColor != &#39;rgb(51, 51, 51)&#39;) {$(&#34;head&#34;).prepend(&#39;&#39;);}});var dataset;$(document).ready(function(){d3.select(&#34;body&#34;).append(&#34;div&#34;).attr(&#34;class&#34;,&#34;jumbotron-special&#34;).text(&#34;U.S. Gross Domestic Product ($USDbn)&#34;)$.getJSON(&#34;https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/GDP-data.json&#34;, function(result) {const w = window.innerWidth-15;const h = window.innerHeight-200;const padding=60;const scale=d3.scaleLinear();dataset=result.data;var parser = d3.timeParse(&#34;%Y-%m-%d&#34;);var formatDate = d3.timeFormat(&#34;%B %Y&#34;);const xScale = d3.</description>
+      <description>US GDP--{{ partial &#34;header.html&#34; . }}$(document).ready(function () {var bodyColor = $(&#39;body&#39;).css(&#39;color&#39;);if (bodyColor != &#39;rgb(51, 51, 51)&#39;) {$(&#34;head&#34;).prepend(&#39;&#39;);}});var dataset;$(document).ready(function(){d3.select(&#34;body&#34;).append(&#34;div&#34;).attr(&#34;class&#34;,&#34;jumbotron-special jumbotron&#34;).text(&#34;U.S. Gross Domestic Product ($USDbn)&#34;)$.getJSON(&#34;https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/GDP-data.json&#34;, function(result) {const w = window.innerWidth-15;const h = window.innerHeight-200;const padding=60;const scale=d3.scaleLinear();dataset=result.data;var parser = d3.timeParse(&#34;%Y-%m-%d&#34;);var formatDate = d3.timeFormat(&#34;%B %Y&#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.meghansolo.com/neighborhood-comparison/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.meghansolo.com/neighborhood-comparison/</guid>
+      <description> Neighborhood Comparison  {{ partial &#34;header.html&#34; . }}  Chicago vs NYC Neighborhood Comparison   Select a City  Chicago    NYC     Select a neighborhood to see its match in the map
+    Chicago
+  NYC
+    {{ partial &#34;libraries.html&#34; . }}  {{ partial &#34;GoogleAnalytics.html&#34; . }} </description>
     </item>
     
     <item>

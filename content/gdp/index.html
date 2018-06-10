@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  //{{ partial "header.html" . }}
+  {{ partial "header.html" . }}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -28,7 +28,7 @@ var dataset;
 $(document).ready(function(){
   d3.select("body")
     .append("div")
-    .attr("class","jumbotron-special")
+    .attr("class","jumbotron-special jumbotron")
     .text("U.S. Gross Domestic Product ($USDbn)")
   $.getJSON("https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/GDP-data.json", function(result) {
     const w = window.innerWidth-15;
