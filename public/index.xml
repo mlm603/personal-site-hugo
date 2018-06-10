@@ -120,7 +120,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.meghansolo.com/weather/</guid>
-      <description>Weather{{ partial &#34;header.html&#34; . }}--Current Location or Pick a locationPick a locationPick a locationDisplay temperature in
+      <description>Weather{{ partial &#34;header.html&#34; . }}--Current Location or Pick a locationPick a locationPick a locationDisplay temperature in
 FahrenheitCelsius{{ partial &#34;libraries.html&#34; . }}{{ partial &#34;GoogleAnalytics.html&#34; . }}</description>
     </item>
     
