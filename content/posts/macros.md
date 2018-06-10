@@ -2,6 +2,7 @@
 title: "Must-Have Macros"
 date: 2016-10-25
 tags: ["excel"]
+description: "Handy macros for Excel power users"
 ---
 
 <p>As someone who works with Excel all day, I've found that there are a few macros that make my life and the lives of those who have to view my documents much better. Specifically, making sheets "VeryHidden" (can't be unhidden just by right clicking on a tab) has proven to be a great tactic for discouraging nosy recipients from poking around in data they shouldn't see and creating a cleaner looking file.</p>
