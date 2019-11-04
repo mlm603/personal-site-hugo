@@ -1,10 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://www.meghansolo.com/posts/third_parties_2016/</loc>
     <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.meghansolo.com/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.meghansolo.com/tags/politics/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.meghansolo.com/posts/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.meghansolo.com/tags/</loc>
+    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.meghansolo.com/tags/excel/</loc>
+    <lastmod>2016-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -19,77 +44,56 @@
   
   <url>
     <loc>https://www.meghansolo.com/calc/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.meghansolo.com/gdp/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.meghansolo.com/neighborhood-comparison/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.meghansolo.com/pomodoro-clock/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.meghansolo.com/quote-machine/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.meghansolo.com/simon/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.meghansolo.com/tic-tac-toe/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.meghansolo.com/twitch/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.meghansolo.com/weather/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.meghansolo.com/wikipedia-viewer/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.meghansolo.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.meghansolo.com/tags/excel/</loc>
-    <lastmod>2016-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.meghansolo.com/</loc>
-    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.meghansolo.com/tags/politics/</loc>
-    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.meghansolo.com/posts/</loc>
-    <lastmod>2016-11-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.meghansolo.com/tags/</loc>
-    <lastmod>2016-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
